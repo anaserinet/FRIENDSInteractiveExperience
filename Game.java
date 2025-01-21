@@ -26,6 +26,11 @@ import java.util.Collection;
  * @author  Michael Kölling, David J. Barnes and Ana Clara Monteiro
  * @version 27/11/2024
  */
+public static void main(String[] args) 
+{
+        Game game = new Game();
+        game.play();
+}
 
 public class Game 
 {
@@ -363,7 +368,7 @@ public class Game
     /**
      *  Main play routine.  Loops until end of play.
      */
-    public void play() 
+    private void play() 
     {            
         printWelcome();
 
