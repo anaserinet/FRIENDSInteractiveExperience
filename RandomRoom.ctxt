@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RandomRoom
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ RandomRoom\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=description
+comment1.target=RandomRoom(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description"\ if\ the\ room\ is\ a\ "random\ room",\ \r\n\ meaning\ it\ has\ a\ different\ attribute\ and\ act\ differently\ to\ regular\ rooms.\ \r\n\ Initially,\ it\ has\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\ \ \ \ \r\n\ @param\ description\ (String)\ The\ room's\ description.\r\n
+comment2.params=direction
+comment2.target=Room\ getNextRoom(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getLongDescription()
+numComments=4

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Subtask
+comment0.text=\r\n\ Class\ Backpack\ -\ a\ backpack\ that\ a\ Player\ uses\ to\ carry\ the\ Items\ they\ grab\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "FRIENDS\:\ An\ Interactive\ Videogame"\ application.\ \r\n\ "FRIENDS\:\ An\ Interactive\ Videogame"\ is\ an\ interactive\ application\ based\ on\ the\ TV\ show\ "Friends".\r\n\r\n\ A\ "Subtask"\ Represents\ a\ single\ step\ or\ action\ required\ to\ complete\ a\ Task.\r\n\ \r\n\ There\ are\ two\ types\ of\ Subtasks\:\r\n\ -\ Character-related\ Subtasks\:\ Require\ interaction\ with\ a\ specific\ Character.\r\n\ -\ Item-related\ Subtasks\:\ Require\ interaction\ with\ a\ specific\ Item.\r\n\ \r\n\ @author\ Ana\ Clara\ Monteiro\ \r\n\ @version\ 27/11/2024\r\n
+comment1.params=character
+comment1.target=Subtask(Character)
+comment1.text=\r\n\ Creates\ a\ Task\ described\ as\ "taskDescription"\ if\ it's\ related\ to\ a\ Character\r\n\ @param\ taskDescription\ (String)\ description\ of\ the\ subtask\ that's\ going\ to\ be\ printed\ to\ the\ terminal\r\n\ @param\ item\ (Character)\ Character\ with\ which\ the\ Player\ has\ to\ interact\ with\ in\ order\ to\ complete\ the\ subtask\ \r\n
+comment2.params=item
+comment2.target=Subtask(Item)
+comment2.text=\r\n\ Creates\ a\ SubTask\ described\ as\ "subtaskDescription"\ if\ it's\ related\ to\ a\ Character\r\n\ @param\ taskDescription\ (String)\ description\ of\ the\ subtask\ that's\ going\ to\ be\ printed\ to\ the\ terminal\r\n\ @param\ character\ (Character)\ Character\ with\ which\ the\ Player\ has\ to\ interact\ with\ in\ order\ to\ complete\ the\ subtask\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ @return\ the\ subtask's\ description\ (String)\r\n
+comment4.params=
+comment4.target=Character\ getCharacterRelated()
+comment4.text=\r\n\ @return\ the\ Character\ associated\ with\ completing\ the\ subtask\ (Character)\r\n
+comment5.params=
+comment5.target=Item\ getItemRelated()
+comment5.text=\r\n\ @return\ the\ Item\ associated\ with\ completing\ the\ subtask\ (Item)\r\n
+comment6.params=newDialogue
+comment6.target=void\ switchCharactersDialogue(java.lang.String)
+comment6.text=\r\n\ Updates\ the\ dialogue\ of\ the\ Character\ that\ is\ associated\ \r\n\ with\ completing\ this\ subtask\ (only\ for\ Character-related\ subtasks)\r\n
+numComments=7

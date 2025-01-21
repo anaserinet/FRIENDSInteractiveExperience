@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Class\ Player\ -\ a\ Player\ that\ plays\ the\ game\ \r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "FRIENDS\:\ An\ Interactive\ Videogame"\ application.\ \r\n\ "FRIENDS\:\ An\ Interactive\ Videogame"\ is\ an\ interactive\ application\ based\ on\ the\ TV\ show\ "Friends".\r\n\r\nA\ "Player"\ represents\ the\ real-life\ person\ who\ is\ playing\ this\ game\ as\ the\ protagonist.\r\n\r\nA\ Player\ has\ the\ following\:\r\n\ -\ a\ money\ balance\ \r\n\ -\ a\ backpack\ where\ they\ can\ add\ their\ items\r\n\ \r\n\ @author\ Ana\ Clara\ Monteiro\ \r\n\ @version\ 27/11/2024\r\n
+comment1.params=playerName
+comment1.target=Player(java.lang.String)
+comment1.text=\r\n\ Create\ a\ player\ in\ your\ game\r\n\ @param\ playerName\ (String)\ the\ player's\ name\r\n
+comment10.params=money
+comment10.target=void\ addMoney(int)
+comment10.text=\r\n\ Adds\ money\ to\ Player's\ pocket\r\n\ @param\ money\ (int)\ amount\ of\ money\ that\ is\ going\ to\ be\ added\r\n
+comment11.params=
+comment11.target=int\ getMoney()
+comment11.text=\r\n\ @return\ the\ amount\ of\ money\ that\ the\ Player\ has\ (int)\r\n
+comment2.params=item
+comment2.target=void\ addItemPlayer(Item)
+comment2.text=\r\n\ Adds\ item\ to\ a\ player's\ backpack\ \r\n\ @param\ item\ \ \ the\ item\ that\ will\ be\ added\ to\ the\ backpack\r\n
+comment3.params=item
+comment3.target=boolean\ checkIfItemCanAdd(Item)
+comment3.text=\r\n\ Checks\ if\ an\ item\ can\ be\ added\ to\ your\ backpack\ \r\n\ @param\ item\ (Item)\ the\ item\ that\ we\ are\ checking\r\n\ @return\ true\ if\ item\ can\ be\ added\ to\ backpack,\ falase\ otherwise\r\n
+comment4.params=
+comment4.target=float\ maxBackpackWeight()
+comment4.text=\r\n\ @return\ the\ maximum\ weight\ that\ the\ player's\ backpack\ can\ carry\ (float)\r\n
+comment5.params=
+comment5.target=java.util.HashSet\ getItemsWithPlayer()
+comment5.text=\r\n\ @return\ a\ HashSet<Item>\ \ of\ the\ items\ that\ are\ in\ the\ player's\ backpack\r\n
+comment6.params=
+comment6.target=java.lang.String\ getStringItemsWithPlayer()
+comment6.text=\r\n\ @return\ a\ String\ of\ the\ items\ that\ are\ in\ the\ player's\ backpack\ (String)\r\n
+comment7.params=itemName
+comment7.target=boolean\ isItemWithPlayer(java.lang.String)
+comment7.text=\r\n\ Checks\ if\ the\ item\ exists\ in\ the\ Player's\ backpack\r\n\ @param\ itemName\ (String)\ name\ of\ the\ item\ we\ are\ looking\ for\r\n\ @return\ true\ if\ the\ item\ is\ in\ the\ backpack,\ false\ if\ it\ is\ not\r\n
+comment8.params=itemName
+comment8.target=Item\ findItemPlayer(java.lang.String)
+comment8.text=\r\n\ Looks\ for\ an\ item\ in\ the\ Player's\ Backpack\ \r\n\ @return\ itemInBackpack\ (Item)\ item\ in\ Player's\ backpack\ (if\ does\ not\ exists\ \=\ null)\r\n
+comment9.params=itemName
+comment9.target=void\ dropItem(java.lang.String)
+comment9.text=\r\n\ ELiminates\ an\ item\ from\ the\ Player's\ backpack\ if\ such\ item\ is\ there\r\n\ @param\ itemName\ (String)\ the\ name\ of\ the\ item\ to\ eliminate\r\n
+numComments=12

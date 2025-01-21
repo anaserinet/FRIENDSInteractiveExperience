@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ Class\ Item\ -\ a\ item\ in\ a\ game.\n\ \n\ This\ class\ is\ part\ of\ the\ "FRIENDS\:\ An\ Interactive\ Videogame"\ application.\ \n\ "FRIENDS\:\ An\ Interactive\ Videogame"\ is\ an\ interactive\ application\ based\ on\ the\ TV\ show\ "Friends".\ \ \n\n\ An\ "Item"\ represents\ an\ object\ that\ can\ exist\ within\ the\ Game.\ Items\ can\ be\ carried\ by\ Players.\n\ Each\ Item\ has\ the\ following\:\ \n\ -A\ name\ to\ identify\ the\ item.\n\ -\ A\ weight\ that\ influences\ gameplay,\ such\ as\ a\ character's\ carrying\ capacity.\n\ -\ A\ color\ \n\ -\ A\ location\ that\ indicates\ where\ the\ item\ is\ within\ the\ game.\n\ \n\ @author\ Ana\ Clara\ Monteiro\n\ @version\ 27/11/2024\n
+comment1.params=itemName\ itemWeight\ itemColor
+comment1.target=Item(java.lang.String,\ float,\ java.lang.String)
+comment1.text=\n\ Creates\ an\ item\ known\ as\ "itemName"\n\ @param\ itemName\ String\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ @return\ the\ item's\ name\ (String)\n
+comment3.params=
+comment3.target=java.lang.String\ getLocation()
+comment3.text=\n\ @return\ the\ item's\ room\ location\ (String)\n
+comment4.params=
+comment4.target=float\ getWeight()
+comment4.text=\n\ @return\ the\ item's\ weight\ (float)\n
+numComments=5

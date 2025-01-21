@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\r\n\ Class\ Character\ -\ Non\ Playable\ Character\ in\ a\ game\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "FRIENDS\:\ An\ Interactive\ Videogame"\ application.\ \r\n\ "FRIENDS\:\ An\ Interactive\ Videogame"\ is\ an\ interactive\ application\ based\ on\ the\ TV\ show\ "Friends"\r\n\r\n\ \ Each\ Character\ can\ be\ interacted\ with\ and\ have\ the\ following\:\r\n\ \ -\ a\ room\ location\ where\ the\ character\ is\ specifically\ located\ at\r\n\ \ -\ a\ dialogue\ that\ can\ change\ throughout\ the\ game\r\n\ \ \r\n\ @author\ Ana\ Clara\ Monteiro\r\n\ @version\ 27/11/2024\r\n
+comment1.params=characterName\ inRoom\ defaultDialogue
+comment1.target=Character(java.lang.String,\ Room,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ Character\ named\ "name"\ that\ is\ located\ in\ a\ certain\ Room\ of\ the\ game\r\n\ @param\ characterName\ (String)\ The\ character's\ name\r\n\ @param\ inRoom\ (Room)\ The\ Room\ the\ character\ is\ in\r\n\ @param\ defaultDialogue\ (String)\ The\ dialogue\ assigned\ initially\ to\ the\ character\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ @return\ Character's\ name\ (String)\r\n
+comment3.params=
+comment3.target=Room\ getRoom()
+comment3.text=\r\n\ @return\ the\ room\ the\ Character\ is\ in\ (Room)\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSpeach()
+comment4.text=\r\n\ @return\ the\ dialogue/speach\ the\ Character\ has\ (String)\r\n
+comment5.params=
+comment5.target=java.util.HashSet\ getAllCharacters()
+comment5.text=\ \r\n\ Static\ Class\ method\ to\ return\ the\ names\ of\ the\ characters\ created\ so\ far\ in\ a\ String\r\n\ @return\ allCharactersStrings\ (String)\ names\ of\ all\ the\ characters\r\n
+comment6.params=characterSpeach
+comment6.target=void\ setSpeech(java.lang.String)
+comment6.text=\ \r\n\ Sets\ a\ new\ speech/dialogue\ for\ the\ character\r\n\ @param\ characterSpeach\ (String)\ new\ speech\ for\ the\ character\r\n
+numComments=7
